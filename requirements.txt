@@ -1,0 +1,6 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+openai>=1.30
+edge-tts>=6.1
+pydantic>=2.6
+playwright>=1.45

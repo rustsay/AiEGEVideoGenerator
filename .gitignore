@@ -1,0 +1,30 @@
+# секреты
+.env
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# данные приложения: база, видео, озвучка, временные файлы
+data/
+
+# старое JSON-хранилище (до рефакторинга)
+data/chats/
+*.mp3
+*.mp4
+
+# playwright
+playwright-report/
+test-results/
+
+# ос
+.DS_Store
+Thumbs.db
+
+# редакторы
+.idea/
+.vscode/
+*.swp
